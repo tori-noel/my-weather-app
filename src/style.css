@@ -1,0 +1,27 @@
+.container {
+  top: 500px;
+  max-width: 500px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: #f4c537;
+  border-radius: 5px;
+}
+.container h3 {
+  font-size: 34px;
+}
+.container input {
+  position: relative;
+  top: 100px;
+  left: 0px;
+}
+
+.location-button {
+  border-radius: 5px;
+  border-color: #f4c537;
+  background-color: #f4c537;
+  box-shadow: 2px, 5px;
+}
+.container .button {
+  background: rgb(74, 182, 244);
+  color: white;
+}

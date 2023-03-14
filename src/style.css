@@ -1,25 +1,38 @@
 .container {
-  top: 500px;
-  max-width: 500px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  background-color: #f4c537;
-  border-radius: 5px;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 100px;
 }
-.container h3 {
-  font-size: 34px;
+h1 {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+h3 {
+  font-size: 46px;
 }
 .container input {
   position: relative;
   top: 100px;
   left: 0px;
 }
-
+.footer {
+  margin-left: 50px;
+  margin-top: 30px;
+}
 .location-button {
-  border-radius: 5px;
-  border-color: #f4c537;
-  background-color: #f4c537;
-  box-shadow: 2px, 5px;
+  border: rgb(74, 182, 244);
+  border-radius: 800px;
+
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+
+  margin-top: 30px;
 }
 .container .button {
   background: rgb(74, 182, 244);
